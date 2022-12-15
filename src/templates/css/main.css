@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Courier;
+}
+form, div{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+form input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #a6a6a6;
+    outline: none;
+}
+form button {
+    padding: 10px;
+    border: unset;
+    background: #a6a6a6;
+    cursor: pointer;
+}
+h1 {
+    text-align: center;
+}
+p {
+    margin: 10px 0;
+}
+a {
+    color: #2f95f3;
+    font-weight: bold;
+    text-align: center;
+}
